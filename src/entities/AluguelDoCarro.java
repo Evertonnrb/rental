@@ -1,5 +1,7 @@
 package entities;
 
+import exeception.DataException;
+
 import java.util.Date;
 
 public class AluguelDoCarro {
@@ -47,4 +49,5 @@ public class AluguelDoCarro {
     public void setFatura(Fatura fatura) {
         this.fatura = fatura;
     }
+
 }
